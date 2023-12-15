@@ -1,0 +1,19 @@
+
+# Setup the tailwindcss 
+1.
+- npm install -D tailwindcss
+- npx tailwindcss init
+
+
+2.
+ inside tailwind.config
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+
+
+3.
+Inside index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
