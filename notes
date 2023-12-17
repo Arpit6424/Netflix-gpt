@@ -1,19 +1,23 @@
+# Setup the tailwindcss
 
-# Setup the tailwindcss 
 1.
+
 - npm install -D tailwindcss
 - npx tailwindcss init
 
-
-2.
- inside tailwind.config
-  content: [
+2.  inside tailwind.config
+    content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+    ],
 
+3.  Inside index.css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
-3.
-Inside index.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+# For deploying the project in the firebase
+
+- Install firebase CLI - npm install -g firebase-tools
+- Firebase Login - firebase login
+- Initilize Firebase - firebase init, then select the hosting
+- Deploy command - firebase deploy
