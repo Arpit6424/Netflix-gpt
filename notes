@@ -21,3 +21,13 @@
 - Firebase Login - firebase login
 - Initilize Firebase - firebase init, then select the hosting
 - Deploy command - firebase deploy
+
+url :- https://netflixgpt-13827.web.app/
+
+const options = {
+method: 'GET',
+headers: {
+accept: 'application/json',
+Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYWU2ZTFmZTczOTg5Y2EwNmE5ZTM0MTNhYjZhMzNhNSIsInN1YiI6IjY1ODA3YWUyMzRlMTUyMDg3ZjA3YzhmYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.bCkNENCJzLUO8uIAE7beoPwGqqN1uQxVDmh1QRtSpBc'
+}
+};
