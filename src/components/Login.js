@@ -79,7 +79,7 @@ const Login = () => {
     <div>
       <Header></Header>
       <div className="absolute">
-        <img src={BG_URL} alt="" />
+        <img src={BG_URL} alt="logo" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
